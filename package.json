@@ -1,20 +1,39 @@
 {
-  "name": "ignews",
+  "name": "nextjs-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@chakra-ui/react": "^2.1.2",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "apexcharts": "^3.35.3",
+    "axios": "^0.27.2",
+    "framer-motion": "^6.3.4",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.3.1",
+    "sass": "^1.51.0"
   },
   "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@types/react": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
     "eslint": "8.15.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.4"
   }
 }
